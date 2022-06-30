@@ -2,19 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@layer base{
+  body{
+    @apply tracking-wide bg-[#151515] text-[#617278]
+  }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+  h1 {
+    @apply text-2xl sm:text-3xl md:text-4xl
+  }
 
-* {
-  box-sizing: border-box;
+  h2{
+    @apply text-2xl sm:text-3xl
+  }
+
 }
