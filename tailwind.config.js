@@ -10,7 +10,13 @@ module.exports = {
         neutral: {
           850: '#151515',
         },
-      }
+      },
+      fontFamily: {
+        calibre: ["Calibre", "sans-serif"],
+        calibre: ["Calibre-semibold", "sans-serif"],
+        SFMono: ["SFMono", "monospace"],
+        SFMono: ["SFMono-semibold", "monospace"]
+      },
     },
   },
   plugins: [],
