@@ -16,3 +16,22 @@
   }
 
 }
+
+@font-face {
+  font-family: "SFMono";
+  src: url("../public/assets/fonts/SFMono/SFMono-Regular.ttf");
+}
+@font-face {
+  font-family: "Calibre";
+  src: url("../public/assets/fonts/Calibre/Calibre-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Calibre-semibold";
+  src: url("../public/assets/fonts/Calibre/Calibre-Semibold.ttf");
+}
+
+@font-face {
+  font-family: "SFMono-semibold";
+  src: url("../public/assets/fonts/SFMono/SFMono-Semibold.ttf");
+}
