@@ -32,7 +32,7 @@ const Navbar = () => {
             <Link href="/">
               <li className="font-mono ml-9 hover:text-white cursor-pointer text-sm font-semibold">
                 {" "}
-                01. About
+                <span className="text-red-600 pr-1">01.</span>About
               </li>
             </Link>
             <Link href="/">
@@ -65,7 +65,11 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className={sideNavResponsive ? "fixed md:hidden right-0 top-0 w-full" : ""}>
+      <div
+        className={
+          sideNavResponsive ? "fixed md:hidden right-0 top-0 w-full" : ""
+        }
+      >
         <div
           className={
             sideNavResponsive
