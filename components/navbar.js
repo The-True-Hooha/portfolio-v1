@@ -32,29 +32,32 @@ const Navbar = () => {
             <Link href="/">
               <li className="font-mono ml-9 hover:text-white cursor-pointer text-sm font-semibold">
                 {" "}
-                <span className="text-red-600 pr-1">01.</span>About
+                <span className="text-white">01. </span>About
               </li>
             </Link>
             <Link href="/">
               <li className="font-mono ml-9 hover:text-white cursor-pointer text-sm font-semibold">
                 {" "}
-                02. Experience
+                <span className="text-white">02. </span>
+                Experience
               </li>
             </Link>
             <Link href="/">
               <li className="font-mono ml-9  hover:text-white text-sm cursor-pointer font-semibold">
                 {" "}
-                03. Projects
+                <span className="text-white">03. </span>
+                Projects
               </li>
             </Link>
             <Link href="/">
               <li className="font-mono ml-9  hover:text-white cursor-pointer text-sm font-semibold">
                 {" "}
-                04. Contact
+                <span className="text-white">04. </span>
+                Contact
               </li>
             </Link>
             <Link href="/">
-              <li className="font-mono ml-9 my-[-6px]  hover:text-white cursor-pointer text-lg font-bold">
+              <li className="font-calibre ml-9 my-[-6px] text-white cursor-pointer text-[20px] font-semibold">
                 {" "}
                 Blog
               </li>
