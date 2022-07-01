@@ -57,7 +57,7 @@ const Navbar = () => {
               </li>
             </Link>
             <Link href="/">
-              <li className="font-calibre ml-9 my-[-6px] text-white cursor-pointer text-[20px] font-semibold">
+              <li className="font-calibre ml-9 my-[-8px] sm:px-2 text-white cursor-pointer hover:bg-[#9db03c] text-[20px] font-semibold border px-3 py-2 text-sm border-white rounded mt-[-11px]">
                 {" "}
                 Blog
               </li>
@@ -109,7 +109,7 @@ const Navbar = () => {
                   </li>
                 </Link>
                 <Link href="/">
-                  <li className="py-4 font-semibold cursor-pointer"> Blog </li>
+                  <li className="font-semibold cursor-pointer border py-2 text-sm border-white rounded hover:bg-[#9db03c]"> Blog </li>
                 </Link>
               </ul>
               <div className="my-[80px]">
