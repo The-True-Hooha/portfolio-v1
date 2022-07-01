@@ -13,9 +13,9 @@ const HeroSection = () => {
       A Software Engineer
       </h2>
       <p className="mt-[5px] max-w-[400px] text-[15px] sm:max-w-[600px] sm:mt-[10px] text-white">
-        specialized in developing{" "}
+        with specialization in developing{" "}
         <span className="text-[#658e8d] pr-1">server-side applications</span>
-        to create <span className="text-[#658e8d]">scalable technological solutions</span> to help build and propel
+        to create <span className="text-[#658e8d]">scalable technological solutions</span> and propel
         innovation. I spend my free time learning about reverse and autonomous engineering.
       </p>
       </div>
