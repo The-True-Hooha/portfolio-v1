@@ -39,7 +39,7 @@ const Projects = () => {
             and other noteworthy contributions...
           </p>
         </div>
-        <div className="w-full flex flex-wrap items-center gap-[12px] mt-6">
+        <div className="w-full flex flex-wrap text-justify items-center gap-[12px] mt-6">
           <div className="h-[300px] w-[300px] bg-[#1b1b1d] cursor-pointer transition ease-in-out duration-500 hover:scale-[120%]">
             <h2 className="text-white text-[20px]"> Project Name</h2>
             <p>lorem ipsum dolor </p>

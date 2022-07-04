@@ -1,5 +1,10 @@
-import Head from 'next/head'
-import Navbar from '../components/navbar'
+import Head from "next/head";
+import About from "../components/about";
+import Contact from "../components/contact";
+import HeroSection from "../components/Hero";
+import Navbar from "../components/navbar";
+import Projects from "../components/projects";
+import Work from "../components/work";
 
 export default function Home() {
   return (
@@ -10,9 +15,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar/>
-      <main className='w-full h-[2000px]'>
+      <Navbar />
+      <main className="w-full h-auto">
+        <HeroSection />
+        <About />
+        <Work />
+        <Projects />
+        <Contact />
       </main>
     </div>
-  )
+  );
 }
