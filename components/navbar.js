@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub, FaTwitter, Fa } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaTwitter} from "react-icons/fa";
 
 
 const Navbar = () => {
