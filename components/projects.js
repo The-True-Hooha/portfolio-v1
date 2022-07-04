@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const myProject = [
   {
@@ -26,7 +27,7 @@ const myProject = [
 
 const Projects = () => {
   return (
-    <div className="py-[40px] px-[60px] lg:py-[2px] w-full text-left sm:px-[60px] lg:px-[290px]">
+    <div id="projects" className="py-[40px] px-[60px] lg:py-[2px] w-full text-left sm:px-[60px] lg:px-[290px]">
       <div>
         <h2 className="text-[23px] font-calibre font-semibold tracking-wide sm:text-[32px] text-left text-white lg:font-bold ">
           <span className="font-SFMono text-white text-[20px] font-normal mr-1 text-sm">
@@ -65,6 +66,16 @@ const Projects = () => {
             <p>lorem ipsum dolor </p>
           </div>
         </div>
+      </div>
+      <div className="font-SFMono text-[20px] mt-10 font-semibold justify-center flex text-white lg:mt-[60px]">
+        <Link className="" href="/">
+          <a
+            target="_blank"
+            className="border hover:bg-[#1b1b1d] px-6 py-3 text-[15px] border-white rounded"
+          >
+            See More
+          </a>
+        </Link>
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="py-[1px] mt-[-70px] px-[60px] text-left lg:px-[330px] flex-auto sm:flex-auto lg:max-w-[1200px]">
+    <div id="about" className="py-[1px] mt-[-70px] px-[60px] text-left lg:px-[330px] flex-auto sm:flex-auto lg:max-w-[1200px]">
       <div>
         <h2 className="text-[23px] font-semibold font-calibre tracking-wide sm:text-[32px] text-left text-white lg:font-bold ">
           {" "}
@@ -41,7 +41,7 @@ const About = () => {
           Core Technologies
         </h3>
         <div className="px-[10px]">
-          <ul className="list-disc list-outside text-justify font-SFMono justify-center flex flex-wrap text-[14px] mt-2">
+          <ul className="list-disc list-outside text-justify font-SFMono justify-center flex flex-wrap w-full text-[14px] mt-2">
             <li className="mr-6"> Java </li>
             <li className="mr-8"> Spring/Springboot </li>
             <li className="mr-8"> Docker </li>
@@ -57,6 +57,7 @@ const About = () => {
             <li className="mr-8"> AWS </li>
             <li className="mr-8"> React </li>
             <li className="mr-8"> Next.js </li>
+            <li className="mr-8"> Micronaut </li>
           </ul>
         </div>
       </div>

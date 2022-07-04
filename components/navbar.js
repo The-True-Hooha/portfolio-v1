@@ -1,8 +1,7 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub, FaTwitter} from "react-icons/fa";
-
+import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 
 const Navbar = () => {
   const [hidNavBarState, setHidNavBarState] = useState(false);
@@ -22,7 +21,7 @@ const Navbar = () => {
     setSideNavResponsive(!sideNavResponsive);
   };
   return (
-    <header
+    <header id="header"
       className={`${hidNavBarState ? "hidden opacity-0" : ""}
       h-20 shadow-lg shadow-neutral-850 opacity-100 fixed z-10 top-0 px-[50px] py-[0px] w-full filter-none pointer-events-auto select-auto backdrop-blur-[20px]`}
     >
@@ -30,27 +29,27 @@ const Navbar = () => {
         <p> add your logo here</p>
         <div>
           <ul className="hidden md:flex">
-            <Link href="/">
+            <Link href="/#about">
               <li className="font-mono ml-9 hover:text-white cursor-pointer text-sm font-semibold">
                 {" "}
                 <span className="text-white">01. </span>About
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#work">
               <li className="font-mono ml-9 hover:text-white cursor-pointer text-sm font-semibold">
                 {" "}
                 <span className="text-white">02. </span>
                 Experience
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#projects">
               <li className="font-mono ml-9  hover:text-white text-sm cursor-pointer font-semibold">
                 {" "}
                 <span className="text-white">03. </span>
                 Projects
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact">
               <li className="font-mono ml-9  hover:text-white cursor-pointer text-sm font-semibold">
                 {" "}
                 <span className="text-white">04. </span>
@@ -58,7 +57,7 @@ const Navbar = () => {
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-9 my-[-8px] sm:px-2 font-SFMono text-white cursor-pointer hover:bg-[#9db03c] text-[20px] font-semibold border px-3 py-2 text-sm border-white rounded mt-[-11px]">
+              <li className="ml-9 my-[-8px] sm:px-2 font-SFMono text-white cursor-pointer hover:bg-[#1b1b1d] text-[20px] font-semibold border px-3 py-2 text-sm border-white rounded mt-[-11px]">
                 {" "}
                 Blog
               </li>
@@ -110,7 +109,10 @@ const Navbar = () => {
                   </li>
                 </Link>
                 <Link href="/">
-                  <li className="font-semibold cursor-pointer border py-2 text-sm border-white rounded hover:bg-[#9db03c]"> Blog </li>
+                  <li className="font-semibold cursor-pointer border py-2 text-sm border-white rounded hover:bg-[#1b1b1d]">
+                    {" "}
+                    Blog{" "}
+                  </li>
                 </Link>
               </ul>
               <div className="my-[80px]">

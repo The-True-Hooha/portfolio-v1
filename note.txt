@@ -1,0 +1,79 @@
+About Me Section
+
+Currently I'm focused in building and learning more about scalable
+web technological solutions, design patterns and how I can further
+utilize my creativity and problem-solving skill to help propel
+innovation. I spend my free time learning more about reverse and
+autonomous engineering, and make meaningful open source
+contributions.
+
+Hex color - Turquoise [#658e8d]
+
+Hex color - Silver [#b1a9a4]
+
+Hex color - lime [#9db03c]
+
+Hex color - Blue [#071944]
+
+Hex color - 
+
+About Me Section
+
+I am a software engineer that is positive and well-organised, with excellent written and verbal communication abilities, as well as the ability to operate with little or no supervision required. 
+
+I am product-oriented with experience working with teams to build and design beautiful user interfaces, and server-side applications, to improve the development, management, and scaling of web products. I have a sound understanding of the concepts of  Object-Oriented Programming and am poised in writing code the test-driven development way. As attached my resume indicates I have the knowledge, character, and abilities that are needed to deliver, improve and support the team and the company, with a drive towards profit and strong technological advantage.
+
+I’ve had the opportunity to collaborate and work with different teams as an open-source contributor and employee. I’m more focused on getting my work done, and its improvements, handling proper documentation with custom tools for projects with a massive codebase, writing tests, providing support for new feature implementations, and architectural feedback for these implementations.
+
+I’ve had the opportunity to get my hands on growing technical stacks, plus working alongside the best team members. 
+
+My past experience integrating with other team members including feedback is an indication of me being too fun to work with. My mantra and what motivates me most with the way I do my work has been “Curiosity and Perseverance”, and this has guided me to be where I am today.
+I enjoy music and play the drums and bass guitar. I recently started listening to Tom Rosenthal, and also Maro.Musica, she’s inspired my passion to learn Portuguese.
+
+<Main/>
+className='w-full h-[2000px]'
+
+Java, Spring/Spring-boot, Micronaut, Picocli, Maven, Gradle
+Node.js, Javascript, Tailwind CSS, HTML/CSS, SQL.
+Tools: Kubernetes, Docker, Git/Github, Kafka, Jenkins
+Testing: JUnit5
+Cloud: AWS
+
+
+Federal University of Petroleum Resources, Effurun  — Researcher (Intern)	JAN 2022 — MAY 2022
+Contributed extensively with my Professor and participated in research on Workflow for Hybrid Oil Spill Detection.
+Queried and sorted large data to produce results and computed graphs to provide detailed analysis of test cases.
+Participated in review sessions and thesis defense during the entire period of my internship.
+Independently performed research to handle project tests, and received guidance on complex problems from my professor.
+Contributed to writing grant proposals for project funding.
+
+ELOQUENT — Backend Developer(Node.js/Java)					JAN 2021 — DEC 2021
+Participated in the entire application lifecycle to build organizational-based internal software.
+Focused on building the web layers and APIs for web applications.
+Provided recommendations for cloud infrastructure needs (cloud provider: AWS)
+Worked in a cross-functional and agile team and collaborated with UI/UX designers and other developers.
+
+DATAFAKER — Contributor (https://github.com/datafaker-net/datafaker)
+Java data faker library that generates fake data written in Java 8+, similar to other fake data generators.
+Added Nigeria to the list of data providers.
+Performed unit testing with Junit for each method created.
+
+AVIYEL— Contributor (https://aviyel.com)
+Awesome community collaborating on making amazing Open Source projects.
+Contributed technical documentation on Typesense, an open-source alternative to ElasticSearch.
+Documentations included integrating Typesense with other applications like firebase, hosting Typesense on the cloud, etc.
+Worked in a cross-functional, and agile team making awesome contributions.
+
+
+NEUROMATCH— Contributor (https://neuromatch.io)
+A nonprofit online community of computational neuroscientists with the mission to foster learning.
+Contributed as a copyright flagger for the artificial and deep learning course curriculum.
+
+GET DIGITAL— (Freelance - Web Developer, Content Writer, Designer)		SEPT 2019 
+Designed and connected the backend functionality to the frontend interfaces.
+Designed and implemented WordPress sites for SMEs to put their businesses online.
+Consulted to manage the online presence of new businesses with a functional website, branding, and consulting, including associated social media accounts.
+
+ONELINK DYNAMIC CONCEPTS — Data Analyst 					OCT 2016 — AUG 2018
+Gathered data and communicated the results to the team lead which significantly improved team performance and business profits by 15%.
+Created and reviewed structured databases to handle and collect data, sorting them into categories as they relate to each other.

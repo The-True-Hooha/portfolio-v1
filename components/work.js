@@ -14,7 +14,7 @@ const myExperienceData = [
   },
   {
     id: 2,
-    title: "Senior Software Engineer",
+    title: "Software Engineer",
     startDate: "12/24/2022",
     endDate: null, // can be null
     company: "GOOGLE",
@@ -24,7 +24,7 @@ const myExperienceData = [
   },
   {
     id: 3,
-    title: "Senior Software Engineer",
+    title: "Software Engineer",
     startDate: "12/24/2022",
     endDate: null, // can be null
     company: "GOOGLE",
@@ -40,7 +40,7 @@ const Work = () => {
     setExpIndex(idx);
   };
   return (
-    <div className="w-full px-[60px] lg:px-[330px] py-[115px] text-white">
+    <div id="work" className="w-full px-[60px] lg:px-[330px] py-[115px] text-white">
       <div className="w-6/12 mb-[10px] flex flex-row items-center">
         <div className="mr-[12px]">
           {" "}
@@ -59,7 +59,7 @@ const Work = () => {
             <li
               onClick={() => handleTabChange(index)}
               key={`${index}-${id}`}
-              className={`text-white px-[8px] py-[10px] cursor-pointer hover:bg-gray-900 hover:text-white transition ease-in-out${
+              className={`text-white px-[8px] py-[10px] font-SFMono cursor-pointer hover:bg-gray-900 hover:text-white transition ease-in-out${
                 expIndex === index
                   ? "bg-gray-900 text-white border-l-[3px] border-solid border-white relative -left-[2px]"
                   : ""
@@ -72,15 +72,19 @@ const Work = () => {
         <div className="w-full md:w-9/12 md:pl-[16px] pt-[10px] md:p-0">
           {
             <div>
-              <h2>{myExperienceData[expIndex].title}</h2>
-              <h2>{myExperienceData[expIndex].company}</h2>
-              <p>
+              <h2 className="font-calibre text-[22px]">
+                {myExperienceData[expIndex].title}
+              </h2>
+              <p className="mt-1 font-SFMono ">
                 {myExperienceData[expIndex].startDate} -{" "}
                 {myExperienceData[expIndex].endDate || "Present"}
               </p>
               <ul>
                 {myExperienceData[expIndex].exps.map((v, idx) => (
-                  <li key={`li-${idx}`} className="my-[8px]">
+                  <li
+                    key={`li-${idx}`}
+                    className="my-[8px] text-[#617278]  font-calibre text-justify text-[15px]"
+                  >
                     {v}
                   </li>
                 ))}

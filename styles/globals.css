@@ -17,6 +17,10 @@
 
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "SFMono";
   src: url("../public/assets/fonts/SFMono/SFMono-Regular.ttf");
