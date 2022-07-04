@@ -4,7 +4,7 @@ import Link from "next/link";
 const HeroSection = () => {
   return (
     <div className="py-[180px] px-[60px] text-left sm:px-[60px] lg:px-[290px] flex-auto sm:flex-auto lg:flex-auto">
-      <div className="">
+      <div className="text-justify">
         <h1 className="font-SFMono text-[16px] sm:text-[20px]">
           Hello, my name is
         </h1>
