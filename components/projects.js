@@ -27,9 +27,9 @@ const myProject = [
 
 const Projects = () => {
   return (
-    <div id="projects" className="py-[40px] px-[60px] lg:py-[2px] w-full text-left sm:px-[60px] lg:px-[290px]">
+    <div id="projects" className="px-[60px] lg:py-[2px] w-full text-left lg:px-[290px]">
       <div>
-        <h2 className="text-[23px] font-calibre font-semibold tracking-wide sm:text-[32px] text-left text-white lg:font-bold ">
+        <h2 className="text-[23px] font-calibre font-semibold mt-[-60px] tracking-wide sm:text-[32px] text-left text-white lg:font-bold ">
           <span className="font-SFMono text-white text-[20px] font-normal mr-1 text-sm">
             03.
           </span>
@@ -40,7 +40,7 @@ const Projects = () => {
             and other noteworthy contributions...
           </p>
         </div>
-        <div className="w-full flex flex-wrap text-justify items-center gap-[12px] mt-6">
+        <div className="w-full flex flex-wrap text-justify justify-center gap-[12px] mt-6">
           <div className="h-[300px] w-[300px] bg-[#1b1b1d] cursor-pointer transition ease-in-out duration-500 hover:scale-[120%]">
             <h2 className="text-white text-[20px]"> Project Name</h2>
             <p>lorem ipsum dolor </p>

@@ -40,7 +40,7 @@ const Work = () => {
     setExpIndex(idx);
   };
   return (
-    <div id="work" className="w-full px-[60px] lg:px-[330px] py-[115px] text-white">
+    <div id="work" className="w-full px-[60px] lg:px-[150px] py-[115px] text-white">
       <div className="w-6/12 mb-[10px] flex flex-row items-center">
         <div className="mr-[12px]">
           {" "}
@@ -54,12 +54,12 @@ const Work = () => {
         <div className=" mt-[10px] h-[1px] w-full bg-white"></div>
       </div>
       <div className="w-full md:w-8/12 mt-[35px] flex flex-col md:flex-row items-start min-h-[300px]">
-        <ul className="w-full md:w-3/12 flex flex-row md:flex-col border-l-[1px] border-solid border-white">
+        <ul className="w-full md:w-3/12 flex flex-row md:flex-col border-l-[1px] border-solid lg:border-l-2 border-[#1b1b1d]">
           {myExperienceData.map(({ id, company }, index) => (
             <li
               onClick={() => handleTabChange(index)}
               key={`${index}-${id}`}
-              className={`text-white px-[8px] py-[10px] font-SFMono cursor-pointer hover:bg-gray-900 hover:text-white transition ease-in-out${
+              className={`text-white px-[8px]  py-[10px] font-SFMono cursor-pointer hover:bg-[#617278] hover:text-white transition ease-in-out${
                 expIndex === index
                   ? "bg-gray-900 text-white border-l-[3px] border-solid border-white relative -left-[2px]"
                   : ""
@@ -83,7 +83,7 @@ const Work = () => {
                 {myExperienceData[expIndex].exps.map((v, idx) => (
                   <li
                     key={`li-${idx}`}
-                    className="my-[8px] text-[#617278]  font-calibre text-justify text-[15px]"
+                    className="my-[8px] text-[#617278] lg:max-w-[420px]  font-calibre text-justify text-[15px]"
                   >
                     {v}
                   </li>
