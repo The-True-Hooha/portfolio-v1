@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <div id="home" className="py-[180px] px-[60px] text-left sm:px-[60px] lg:px-[290px] flex-auto sm:flex-auto lg:flex-auto">
+    <div id="home" className="py-[180px] px-[60px] text-left sm:px-[60px] lg:px-[150px]">
       <div className="text-justify">
         <h1 className="font-SFMono text-[16px] sm:text-[20px]">
           Hello, my name is
@@ -23,7 +23,7 @@ const HeroSection = () => {
         <Link href="/">
           <a
             target="_blank"
-            className="border hover:bg-[#9db03c] px-8 py-4 text-[15px] border-white rounded"
+            className="border hover:bg-[#1b1b1d] px-6 py-3 text-[15px] border-white rounded"
           >
             Resume
           </a>
