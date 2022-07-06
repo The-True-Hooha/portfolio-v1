@@ -57,7 +57,7 @@ const Navbar = () => {
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-9 my-[-8px] sm:px-2 font-SFMono text-white cursor-pointer hover:bg-[#1b1b1d] text-[20px] font-semibold border px-3 py-2 text-sm border-white rounded mt-[-11px]">
+              <li className="ml-9 my-[-8px] font-SFMono text-white cursor-pointer hover:bg-[#1b1b1d] text-[20px] font-semibold border px-3 py-2 text-sm border-white rounded mt-[-11px]">
                 {" "}
                 Blog
               </li>
