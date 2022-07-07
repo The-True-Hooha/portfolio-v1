@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
+import { RiCopyrightLine } from "react-icons/ri";
 
 const Contact = () => {
   return (
@@ -46,9 +47,15 @@ const Contact = () => {
           {" "}
           Curiosity and Perseverance{" "}
         </p>
-        <p className="flex justify-center font-SFMono font-semibold">
-          David Ogar
-        </p>
+        <div>
+          <p className="flex justify-center mt-2 font-SFMono font-semibold">
+            David Ogar
+          </p>
+          <p className="flex justify-center font-SFMono font-bold">
+            <RiCopyrightLine className="mt-1 mr-1" />
+            2022
+          </p>
+        </div>
       </div>
     </div>
   );
