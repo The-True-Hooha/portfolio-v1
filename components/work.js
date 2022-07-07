@@ -3,35 +3,53 @@ import React, { useState } from "react";
 const myExperienceData = [
   {
     id: 1,
-    title: "Software Engineer",
-    startDate: "12/24/2022",
-    endDate: "12/24/2022", // can be null
-    company: "SOFTESCU",
+    title: "Researcher (Intern)",
+    startDate: "Feb 2022",
+    endDate: "Jun 2022", // can be null
+    company: "FUPRE",
     exps: [
-      "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-      "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-    ],
+      "Contributed extensively with my professor and participated in research on workflow for Hybrid Oil Spill Detection.",
+      "Queried and sorted large data to produce results and computed graphs to provide detailed analysis of test cases.",
+      "Participated in review sessions and thesis defense during the entire period of my internship.",
+      "Independently performed research to handle project tests, and received guidance on complex problems from my professor.",
+      "Contributed to writing grant proposals for project funding."
+    ]
   },
   {
     id: 2,
-    title: "Software Engineer",
-    startDate: "12/24/2022",
-    endDate: null, // can be null
-    company: "GOOGLE",
+    title: "Software Engineer(Java/Node.js)",
+    startDate: "Jan 2021 ",
+    endDate: "Dec 2021", // can be null
+    company: "Team Eloquent",
     exps: [
-      "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-    ],
+      "Participated in the entire application lifecycle to build organizational-based internal software.",
+      "Focused on building the web layers and APIs for web applications.",
+      "Provided recommendations for cloud infrastructure needs (cloud provider: AWS)",
+      "Worked in a cross-functional and agile team and collaborated with UI/UX designers and other developers.",
+    ]
   },
   {
     id: 3,
-    title: "Software Engineer",
-    startDate: "12/24/2022",
+    title: "Web Developer",
+    startDate: "SEPT 2019",
     endDate: null, // can be null
-    company: "GOOGLE",
+    company: "Get Digital",
     exps: [
-      "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-    ],
+      "Designed and implemented WordPress sites for SMEs to put their businesses online.",
+      "Consulted to manage the online presence of new businesses with a functional website, branding, and consulting, including associated social media accounts."
+    ]
   },
+  {
+    id: 4,
+    title: "Data Analyst",
+    startDate: "Oct 2016",
+    endDate: "AUG 2017",
+    company: "OneLink Dynamic Concepts",
+    exps: [
+      "Gathered data and communicated the results to the team lead which significantly improved team performance and business profits by 15%.",
+      "Created and reviewed structured databases to handle and collect data, sorting them into categories as they relate to each other."
+    ]
+  }
 ];
 
 const Work = () => {
@@ -59,7 +77,7 @@ const Work = () => {
             <li
               onClick={() => handleTabChange(index)}
               key={`${index}-${id}`}
-              className={`text-white px-[8px]  py-[10px] font-SFMono cursor-pointer hover:bg-[#617278] hover:text-white transition ease-in-out${
+              className={`text-white px-[8px] duration-600 ease-in-out transition text-[12px]  py-[10px] font-SFMono cursor-pointer hover:bg-[#617278]${
                 expIndex === index
                   ? "bg-gray-900 text-white border-l-[3px] border-solid border-white relative -left-[2px]"
                   : ""
@@ -72,10 +90,10 @@ const Work = () => {
         <div className="w-full md:w-9/12 md:pl-[16px] pt-[10px] md:p-0">
           {
             <div>
-              <h2 className="font-calibre text-[22px]">
+              <h2 className="font-calibre font-semibold text-[15px]">
                 {myExperienceData[expIndex].title}
               </h2>
-              <p className="mt-1 font-SFMono ">
+              <p className="mt-1 font-SFMono text-[13px]">
                 {myExperienceData[expIndex].startDate} -{" "}
                 {myExperienceData[expIndex].endDate || "Present"}
               </p>
@@ -83,7 +101,7 @@ const Work = () => {
                 {myExperienceData[expIndex].exps.map((v, idx) => (
                   <li
                     key={`li-${idx}`}
-                    className="my-[8px] text-[#617278] lg:max-w-[420px]  font-calibre text-justify text-[15px]"
+                    className="my-[8px] list-disc duration-500 transition ease-in-out text-[#617278] lg:max-w-[420px]  font-calibre text-justify text-[13px]"
                   >
                     {v}
                   </li>
