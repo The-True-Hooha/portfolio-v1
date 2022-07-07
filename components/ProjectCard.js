@@ -6,11 +6,11 @@ const ProjectCard = ({icon, title, projectDescription, github, stack}) => {
         {icon} {github}
         </div>
         
-        <h2 className="text-[20px] font-semibold font-calibre mt-4">
+        <h2 className="text-[16px] font-semibold font-calibre mt-4">
          {title}
         </h2>
-        <p className="text-white text-[15px] font-calibre text-justify font-normal">{projectDescription}</p>
-        <p className="absolute mb-9 text-[12px] opacity-50 bottom-0 font-SFMono font-light"> {stack}</p>
+        <p className="text-white text-[12px] max-w-[250px] font-calibre text-justify font-light">{projectDescription}</p>
+        <p className="absolute mb-9 text-[12px] max-w-[250px] opacity-50 bottom-0 font-SFMono font-light"> {stack}</p>
       </div>
     </div>
   );
