@@ -18,7 +18,6 @@ const myProject = [
     github: <AiOutlineGithub size={25} className="mr-6" />,
     stack: "java angular react redis next.js",
     icon: <BsFolderPlus size={25} className="text-white" />,
-    stack: "",
   },
   {
     title: "Computer Disc",
@@ -50,7 +49,7 @@ const myProject = [
     stack: "java angular react redis next.js",
     live: "",
     icon: <BsFolderPlus size={25} className="text-white" />,
-  }
+  },
 ];
 
 const Projects = () => {
@@ -67,7 +66,7 @@ const Projects = () => {
           Projects
         </h2>
         <div className="font-SFMono  flex w-full lg:mt-[4px] ">
-          <p className="px-7 text-center justify-center text-[14px] hover:underline font-bold mt-1">
+          <p className="px-7 text-center justify-center text-[14px] hover:underline hover:text-white font-bold mt-1">
             and other noteworthy contributions...
           </p>
         </div>
