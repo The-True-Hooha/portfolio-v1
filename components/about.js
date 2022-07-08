@@ -14,9 +14,9 @@ const About = () => {
       </div>
       <div className="mt-6 text-[#617278] font-airlight text-justify text-[16px] font-light">
         <p>
-          I’ve had the privilege of working in a startup and also collaborating
+          I&apos;ve had the privilege of working in a startup and also collaborating
           with different teams as an{" "}
-          <span className="text-white">open-source contributor</span> where I've
+          <span className="text-white">open-source contributor</span> where I&apos;ve
           worked on products with{" "}
           <span className="text-white">monolithic and micro-services</span>{" "}
           based architectures with large codebase.
