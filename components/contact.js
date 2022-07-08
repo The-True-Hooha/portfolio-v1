@@ -97,8 +97,11 @@ const Contact = () => {
           Curiosity and Perseverance{" "}
         </p>
         <div>
-          <p className="flex justify-center mt-2 font-SFMono font-semibold">
-            David Ogar
+          <p className="flex justify-center mt-2 font-SFMono hover:text-white font-semibold">
+            {" "}
+            <a href="https://github.com/The-True-Hooha/portfolio-v1.git">
+              David Ogar
+            </a>
           </p>
           <p className="flex justify-center font-SFMono font-bold">
             <RiCopyrightLine className="mt-1 mr-1" />
