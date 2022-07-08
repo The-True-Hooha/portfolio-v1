@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { RiCopyrightLine } from "react-icons/ri";
+import { CgGitFork } from "react-icons/cg";
 
 const Contact = () => {
   return (
@@ -96,8 +97,9 @@ const Contact = () => {
           {" "}
           Curiosity and Perseverance{" "}
         </p>
-        <div>
+        <div className="mt-6">
           <p className="flex justify-center mt-2 font-SFMono hover:text-white font-semibold">
+          <CgGitFork size={25}/>
             {" "}
             <a href="https://github.com/The-True-Hooha/portfolio-v1.git">
               David Ogar
