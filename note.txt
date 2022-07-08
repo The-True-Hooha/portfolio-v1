@@ -77,3 +77,21 @@ Consulted to manage the online presence of new businesses with a functional webs
 ONELINK DYNAMIC CONCEPTS — Data Analyst 					OCT 2016 — AUG 2018
 Gathered data and communicated the results to the team lead which significantly improved team performance and business profits by 15%.
 Created and reviewed structured databases to handle and collect data, sorting them into categories as they relate to each other.
+
+
+<div className="hidden lg:flex">
+          <div className="pt-[-20px]">
+            <div className="ease-in duration-300 mr-5 cursor-pointer hover:scale-150">
+              <FaGithub className="mb-4" size={25} />
+            </div>
+            <div className="ease-in duration-300 cursor-pointer hover:scale-150">
+              <FaLinkedinIn className="mb-4" size={25} />
+            </div>
+            <div className="ease-in-out transition duration-300 cursor-pointer hover:scale-150">
+              <FaTwitter className="mb-4" size={25} />
+            </div>
+            <div className="ease-in-out transition duration-300 cursor-pointer hover:scale-150">
+              <AiOutlineMail size={25} />
+            </div>
+          </div>
+        </div>

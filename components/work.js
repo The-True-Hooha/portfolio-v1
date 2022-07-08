@@ -58,7 +58,7 @@ const Work = () => {
     setExpIndex(idx);
   };
   return (
-    <div id="work" className="w-full px-[60px] lg:px-[150px] py-[115px] text-white">
+    <div id="work" className="w-full px-[60px] lg:px-[150px] py-[115px]">
       <div className="w-6/12 mb-[10px] flex flex-row items-center">
         <div className="mr-[12px]">
           {" "}
@@ -77,9 +77,9 @@ const Work = () => {
             <li
               onClick={() => handleTabChange(index)}
               key={`${index}-${id}`}
-              className={`text-white px-[8px] duration-600 ease-in-out transition text-[12px]  py-[10px] font-SFMono cursor-pointer hover:bg-[#617278]${
+              className={`px-[8px] duration-600 ease-in-out transition text-[12px]  py-[10px] font-SFMono cursor-pointer hover:bg-[#617278]${
                 expIndex === index
-                  ? "bg-gray-900 text-white border-l-[3px] border-solid border-white relative -left-[2px]"
+                  ? "bg-gray-900  border-l-[3px] text-white border-solid border-white relative -left-[2px]"
                   : ""
               }`}
             >
@@ -90,10 +90,10 @@ const Work = () => {
         <div className="w-full md:w-9/12 md:pl-[16px] pt-[10px] md:p-0">
           {
             <div>
-              <h2 className="font-calibre font-semibold text-[15px]">
+              <h2 className="font-semibold text-white text-[15px]">
                 {myExperienceData[expIndex].title}
               </h2>
-              <p className="mt-1 font-SFMono text-[13px]">
+              <p className="mt-1 font-SFMono text-white text-[12px]">
                 {myExperienceData[expIndex].startDate} -{" "}
                 {myExperienceData[expIndex].endDate || "Present"}
               </p>

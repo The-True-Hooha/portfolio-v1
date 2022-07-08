@@ -37,13 +37,13 @@ const About = () => {
           <span className="text-white">blog and newsletter</span> where I talk
           about the little things that interest me.
         </p>
-        <h3 className="text-white text-center hover:underline mt-4 text-[20px]">
+        <h3 className="text-white text-center hover:underline mt-[45px] text-[20px]">
           Core Technologies
         </h3>
-        <div className="px-[10px]">
-          <ul className="list-disc list-outside text-justify font-SFMono justify-center flex flex-wrap w-full text-[14px] mt-2">
+        <div className="mt-[10px] max-w-full">
+          <ul className="list-disc list-outside gap-1 justify-center grid grid-cols-3 text-justify font-SFMon text-[14px] mt-2">
             <li className="mr-6"> Java </li>
-            <li className="mr-8"> Spring/Springboot </li>
+            <li className="mr-8"> Micronaut </li>
             <li className="mr-8"> Docker </li>
             <li className="mr-8"> Kubernetes</li>
             <li className="mr-8"> Maven </li>
@@ -57,7 +57,7 @@ const About = () => {
             <li className="mr-8"> AWS </li>
             <li className="mr-8"> React </li>
             <li className="mr-8"> Next.js </li>
-            <li className="mr-8"> Micronaut </li>
+            <li className="mr-8">  Spring/Springboot</li>
           </ul>
         </div>
       </div>

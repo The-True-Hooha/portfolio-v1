@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { RiCopyrightLine } from "react-icons/ri";
@@ -9,16 +10,40 @@ const Contact = () => {
       <div className="lg:hidden">
         <div className="flex my-4  items-center justify-center ml-8">
           <div className="ease-in duration-500 mr-5 cursor-pointer hover:scale-105">
-            <FaGithub size={22} />
+            <a
+              target="_blank"
+              href="https://github.com/The-True-Hooha"
+              rel="noreferrer"
+            >
+              <FaGithub size={22} />
+            </a>
           </div>
           <div className="ease-in duration-500 mr-5 cursor-pointer hover:scale-105">
-            <FaLinkedinIn size={22} />
+            <a
+              href="https://www.linkedin.com/in/david-ogar/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedinIn size={22} />
+            </a>
           </div>
           <div className="ease-in duration-500 mr-5 cursor-pointer hover:scale-105">
-            <FaTwitter size={22} />
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/TheTrueHooha_I"
+            >
+              <FaTwitter size={22} />
+            </a>
           </div>
           <div className="ease-in duration-500 mr-5 cursor-pointer hover:scale-105">
-            <AiOutlineMail size={22} />
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="mailto:owogogahhero@outlook.com"
+            >
+              <AiOutlineMail size={22} />
+            </a>
           </div>
         </div>
         <p className="flex justify-center font-SFMono text-sm font-bold">
@@ -26,20 +51,44 @@ const Contact = () => {
           Curiosity and Perseverance{" "}
         </p>
       </div>
-      <div>
-        <div className="hidden lg:flex">
-          <div className="pt-[-20px]">
-            <div className="ease-in duration-300 mr-5 cursor-pointer hover:scale-150">
-              <FaGithub className="mb-4" size={25} />
-            </div>
+      <div className="">
+        <div className="hidden md:flex">
+          <div className="text-white">
             <div className="ease-in duration-300 cursor-pointer hover:scale-150">
-              <FaLinkedinIn className="mb-4" size={25} />
+              <a
+                target="_blank"
+                href="https://github.com/The-True-Hooha"
+                rel="noreferrer"
+              >
+                <FaGithub size={26} />
+              </a>
             </div>
-            <div className="ease-in-out transition duration-300 cursor-pointer hover:scale-150">
-              <FaTwitter className="mb-4" size={25} />
+            <div className="ease-in duration-300 mt-3 cursor-pointer hover:scale-150">
+              <a
+                href="https://www.linkedin.com/in/david-ogar/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaLinkedinIn size={26} />
+              </a>
             </div>
-            <div className="ease-in-out transition duration-300 cursor-pointer hover:scale-150">
-              <AiOutlineMail size={25} />
+            <div className="ease-in-out mt-3 transition duration-300 cursor-pointer hover:scale-150">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://twitter.com/TheTrueHooha_I"
+              >
+                <FaTwitter size={26} />
+              </a>
+            </div>
+            <div className="ease-in-out mt-3 transition duration-300 cursor-pointer hover:scale-150">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="mailto:owogogahhero@outlook.com"
+              >
+                <AiOutlineMail size={26} />
+              </a>
             </div>
           </div>
         </div>

@@ -21,12 +21,13 @@ const Navbar = () => {
     setSideNavResponsive(!sideNavResponsive);
   };
   return (
-    <header id="header"
+    <header
+      id="header"
       className={`${hidNavBarState ? "hidden opacity-0" : ""}
       h-20 shadow-lg shadow-neutral-850 opacity-100 fixed z-10 top-0 px-[50px] py-[0px] w-full filter-none pointer-events-auto select-auto backdrop-blur-[20px]`}
     >
       <nav className="flex justify-between items-center w-full h-full px-2  2xl:px-16 mt-4">
-        <p> add your logo here</p>
+        <p className="text-[12px] font-SFMono lg:text-[10px]"> curiosity and perseverance</p>
         <div>
           <ul className="hidden md:flex">
             <Link href="/#about">
@@ -88,21 +89,21 @@ const Navbar = () => {
             </div>
             <div className="text-center text-[#ffffff] my-[-55px] flex-col font-mono">
               <ul>
-                <Link href="/">
+                <Link href="/#about">
                   <li className="py-4 font-semibold cursor-pointer">About</li>
                 </Link>
-                <Link href="/">
+                <Link href="/#work">
                   <li className="py-4 font-semibold cursor-pointer">
                     Experience
                   </li>
                 </Link>
-                <Link href="/">
+                <Link href="/#projects">
                   <li className="py-4 cursor-pointer font-semibold">
                     {" "}
                     Projects
                   </li>
                 </Link>
-                <Link href="/">
+                <Link href="/Contact">
                   <li className="py-4 font-semibold cursor-pointer">
                     {" "}
                     Contact
@@ -122,16 +123,40 @@ const Navbar = () => {
                 </p>
                 <div className="flex my-4 items-center justify-center ml-8 ">
                   <div className="ease-in duration-500 mr-5 cursor-pointer hover:scale-105">
-                    <FaGithub size={22} />
+                    <a
+                      target="_blank"
+                      href="https://github.com/The-True-Hooha"
+                      rel="noreferrer"
+                    >
+                      <FaGithub size={22} />
+                    </a>
                   </div>
                   <div className="ease-in duration-500 mr-5 cursor-pointer hover:scale-105">
-                    <FaLinkedinIn size={22} />
+                    <a
+                      href="https://www.linkedin.com/in/david-ogar/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FaLinkedinIn size={22} />
+                    </a>
                   </div>
                   <div className="ease-in duration-500 mr-5 cursor-pointer hover:scale-105">
-                    <FaTwitter size={22} />
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://twitter.com/TheTrueHooha_I"
+                    >
+                      <FaTwitter size={22} />
+                    </a>
                   </div>
                   <div className="ease-in duration-500 mr-5 cursor-pointer hover:scale-105">
-                    <AiOutlineMail size={22} />
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="mailto:owogogahhero@outlook.com"
+                    >
+                      <AiOutlineMail size={22} />
+                    </a>
                   </div>
                 </div>
               </div>
