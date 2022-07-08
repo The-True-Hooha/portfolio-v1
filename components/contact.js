@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { RiCopyrightLine } from "react-icons/ri";

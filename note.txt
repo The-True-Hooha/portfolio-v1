@@ -95,3 +95,11 @@ Created and reviewed structured databases to handle and collect data, sorting th
             </div>
           </div>
         </div>
+
+        <Image
+          className="lg:ml-[30px] sticky "
+          src="/../public/assets/images/portfolio1.png"
+          width={400}
+          height={350}
+          alt="image"
+          />

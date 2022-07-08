@@ -12,8 +12,8 @@ const myExperienceData = [
       "Queried and sorted large data to produce results and computed graphs to provide detailed analysis of test cases.",
       "Participated in review sessions and thesis defense during the entire period of my internship.",
       "Independently performed research to handle project tests, and received guidance on complex problems from my professor.",
-      "Contributed to writing grant proposals for project funding."
-    ]
+      "Contributed to writing grant proposals for project funding.",
+    ],
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const myExperienceData = [
       "Focused on building the web layers and APIs for web applications.",
       "Provided recommendations for cloud infrastructure needs (cloud provider: AWS)",
       "Worked in a cross-functional and agile team and collaborated with UI/UX designers and other developers.",
-    ]
+    ],
   },
   {
     id: 3,
@@ -36,8 +36,8 @@ const myExperienceData = [
     company: "Get Digital",
     exps: [
       "Designed and implemented WordPress sites for SMEs to put their businesses online.",
-      "Consulted to manage the online presence of new businesses with a functional website, branding, and consulting, including associated social media accounts."
-    ]
+      "Consulted to manage the online presence of new businesses with a functional website, branding, and consulting, including associated social media accounts.",
+    ],
   },
   {
     id: 4,
@@ -47,9 +47,9 @@ const myExperienceData = [
     company: "OneLink Dynamic Concepts",
     exps: [
       "Gathered data and communicated the results to the team lead which significantly improved team performance and business profits by 15%.",
-      "Created and reviewed structured databases to handle and collect data, sorting them into categories as they relate to each other."
-    ]
-  }
+      "Created and reviewed structured databases to handle and collect data, sorting them into categories as they relate to each other.",
+    ],
+  },
 ];
 
 const Work = () => {

@@ -5,6 +5,7 @@ import HeroSection from "../components/Hero";
 import Navbar from "../components/navbar";
 import Projects from "../components/projects";
 import Work from "../components/work";
+import Image from "next/image";
 
 export default function Home() {
   return (

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
@@ -27,7 +28,12 @@ const Navbar = () => {
       h-20 shadow-lg shadow-neutral-850 opacity-100 fixed z-10 top-0 px-[50px] py-[0px] w-full filter-none pointer-events-auto select-auto backdrop-blur-[20px]`}
     >
       <nav className="flex justify-between items-center w-full h-full px-2  2xl:px-16 mt-4">
-        <p className="text-[12px] font-SFMono lg:text-[10px]"> curiosity and perseverance</p>
+      <Image
+          src="/../public/assets/images/portfolio1.png"
+          width={60}
+          height={50}
+          alt="image"
+          />
         <div>
           <ul className="hidden md:flex">
             <Link href="/#about">
