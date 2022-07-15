@@ -6,7 +6,7 @@ This repository contains the code for my personal website built with Next.js and
 ## Branches
 `main`: This branch contains the first iteration of my website.
 
-I will consider making different versions in due time, in theor associated branches.
+I will consider making different versions in due time, in their associated branches.
 
 ## License
 
