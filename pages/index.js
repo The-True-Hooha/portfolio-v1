@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <title>David Ogar | Software Engineer</title>
         <meta name="portfolio" content="portfolio by David Ogar" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="" />
       </Head>
 
       <Navbar />
