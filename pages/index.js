@@ -15,7 +15,6 @@ export default function Home() {
         <meta name="portfolio" content="portfolio by David Ogar" />
         <link rel="icon" href="" />
       </Head>
-
       <Navbar />
       <main className="w-full h-auto">
         <HeroSection />
