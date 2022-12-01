@@ -48,11 +48,16 @@ const myExperienceData = [
 
   {
     id: 4,
-    title: "Co-founder",
-    startDate: "Aug 2022",
-    endDate: "Oct 2022", // can be null
-    company: "Statcrawler",
-    exps:[]
+    title: "Technical Writer",
+    startDate: "Oct 2021",
+    endDate: null, // can be null
+    company: "Aviyel",
+    exps:[
+      "Awesome community collaborating on making awesome Open Source projects",
+      "Contributed technical documentation on Typesense, an open-source alternative to ElasticSearch",
+      "Documentations included integrating Typesense with other applications like firebase, hosting Typesense on the cloud, etc",
+      "Worked in a cross-functional, and agile team making awesome contributions"
+    ]
   },
 
   {
@@ -92,10 +97,12 @@ const myExperienceData = [
     endDate: "Dec 2021", // can be null
     company: "Team Eloquent",
     exps: [
-      "Participated in the entire application lifecycle to build organizational-based internal software.",
-      "Focused on building the web layers and APIs for web applications.",
-      "Provided recommendations for cloud infrastructure needs (cloud provider: AWS)",
-      "Worked in a cross-functional and agile team and collaborated with UI/UX designers and other developers.",
+      "Headed the entire application lifecycle to build organizational-based internal software that increased developer productivity by 6%",
+      "Built web layers and APIs for web applications using Spring-boot, Express.js, React.js, and Next.js",
+      "Wrote full test coverage for all applications with Junit, ensuring strict test-driven development patterns",
+      "Perform data queries using SQL",
+      "Provided recommendations for cloud infrastructure needs (cloud provider: AWS) and services being used pending client software architecture needs",
+      "Worked in a cross-functional and agile team and collaborated with UI/UX designers and other developers"
     ],
   },
   {
