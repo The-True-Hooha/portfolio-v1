@@ -1,12 +1,81 @@
 import React, { useState } from "react";
 
 const myExperienceData = [
+
   {
     id: 1,
+    title: "Software Consultant",
+    startDate: "Oct 2022",
+    endDate: "Dec 2022",
+    company: "Salem State University",
+    exps: [
+      "Contracted to build a remote code engine (RCE) for students",
+      "Handled and managed user data, permission, and authentication workflow that is stored in a relational database (RDS)",
+      "Prioritize and provide logic to handle permissions, plus privilege access to admin.",
+      "Develop code editor in python connected to AWS API gateway",
+      "Develop client-side with Next.js and tailwind CSS.",
+    ],
+  },
+  {
+    id: 2,
+    title: "Software Engineer",
+    startDate: "November",
+    endDate: null,
+    company: "FirstAid Doctors",
+    exps: [
+      "A health management organization that aims to resolve health emergencies for school kids.",
+      "Responsible for building version one of the entire application",
+      "Developed internal tools and automated scripts to improve the work cycle by 25% for other teams making their work more exciting",
+      "Developed the optimal solution for hosting/development that cut costs by over 50%",
+      "Reported, and wrote proposals to the management, led the team to visit clients, and gather insight on how to build better products",
+      "Handled documentation for all technologies used and their trade-offs",
+    ]
+  },
+
+  {
+    id: 3,
+    title: "Co-founder",
+    startDate: "Aug 2022",
+    endDate: "Oct 2022", // can be null
+    company: "Statcrawler",
+    exps: [
+      "A status aggregator from different variety of web services, that displays the current service status for that particular service in real time. What makes us stand out from the rest, is the ease of use and multi-functionality",
+      "Express with MongoDB with mongoose to store user registration and login data, validation and modeling layer, improved efficiency to store data as JSON objects",
+      "React for client-side U with tailwind CSS",
+      "Server-side functionalities, authentication, and validation for the backend, multi-contributions with my co-founder",
+    ]
+  }, 
+
+  {
+    id: 4,
+    title: "Co-founder",
+    startDate: "Aug 2022",
+    endDate: "Oct 2022", // can be null
+    company: "Statcrawler",
+    exps:[]
+  },
+
+  {
+    id: 5,
+    title: "Instructor (Python/Micro python)",
+    startDate: "Aug 2022",
+    endDate: "Aug 2022", // can be null
+    company: "SkysenxHub",
+    exps: [
+      "I led a class of about 17 students with ages 8 - 12 respectively where I taught and introduced them to micro-bits and Python programming.",
+      "Plotted course curriculum to start with an introduction to micro controllers, micro-bits and how they operate, understanding micro-python and python. I used this approach as it helped improve their logic and how they can brainstorm ideas by 35%.",
+      "Held presentations, discussions, and project review sessions on Python, micro: bits, and micro-python",
+      "Organized quiz sessions where I divided the class into teams and had a brainstorming session to debug code and come up with new project ideas",
+      "I ensured that no child was left out, and were all equipped with a strong foundation of how software programs work and operate under the hood",
+    ]
+  },
+
+  {
+    id: 6,
     title: "Researcher (Intern)",
     startDate: "Feb 2022",
     endDate: "Jun 2022", // can be null
-    company: "FUPRE",
+    company: "Federal University of Petroleum Resources, Effurun Delta State",
     exps: [
       "Contributed extensively with my professor and participated in research on workflow for Hybrid Oil Spill Detection.",
       "Queried and sorted large data to produce results and computed graphs to provide detailed analysis of test cases.",
@@ -15,8 +84,9 @@ const myExperienceData = [
       "Contributed to writing grant proposals for project funding.",
     ],
   },
+
   {
-    id: 2,
+    id: 7,
     title: "Software Engineer(Java/Node.js)",
     startDate: "Jan 2021 ",
     endDate: "Dec 2021", // can be null
@@ -29,7 +99,7 @@ const myExperienceData = [
     ],
   },
   {
-    id: 3,
+    id: 8,
     title: "Web Developer",
     startDate: "SEPT 2019",
     endDate: null, // can be null
@@ -40,7 +110,7 @@ const myExperienceData = [
     ],
   },
   {
-    id: 4,
+    id: 9,
     title: "Data Analyst",
     startDate: "Oct 2016",
     endDate: "AUG 2017",
