@@ -6,7 +6,7 @@ import { CgGitFork } from "react-icons/cg";
 
 const Contact = () => {
   return (
-    <div id="contact" className="py-[80px] px-[60px] w-auto">
+    <div id="contact" className="py-[20px] h-full px-[60px] w-auto overflow-y-auto">
       <div className="lg:hidden">
         <div className="flex my-4  items-center justify-center ml-8">
           <div className="ease-in duration-500 mr-5 cursor-pointer hover:scale-105">
