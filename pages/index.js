@@ -3,7 +3,7 @@ import About from "../components/about";
 import Contact from "../components/contact";
 import HeroSection from "../components/Hero";
 import Navbar from "../components/navbar";
-import Projects from "../components/projects";
+//import Projects from "../components/projects";
 import Work from "../components/work";
 import Image from "next/image";
 
@@ -15,14 +15,14 @@ export default function Home() {
         <meta name="portfolio" content="portfolio by David Ogar" />
         <link rel="icon" href="" />
       </Head>
-      <Navbar />
-      <main className="w-full h-auto">
-        <HeroSection />
-        <About />
-        <Work />
-        <Projects />
-        <Contact />
-      </main>
+       <Navbar />
+      <HeroSection />
+      {/* <About /> */}
+      {/*<Work />
+      <Contact /> */}
+      {/* <Projects /> */}
+      {/* <main className="">  
+      </main> */}
     </div>
   );
 }
