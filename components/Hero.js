@@ -20,16 +20,16 @@ const HeroSection = () => {
             my free time learning about reverse and autonomous engineering.
           </p>
         
-        {/* <div className="font-SFMono text-[20px] text-white md:text-[25px] lg:mt-[30px] mt-10">
+        <div className="font-SFMono text-[15px] text-white md:text-[25px] lg:mt-[30px] mt-10">
           <Link href="https://drive.google.com/file/d/1TYUoQ9suUB8GuZbtSWVsaqcm5JD4ljoJ/view?usp=sharing">
             <a
               target="_blank"
-              className="border hover:bg-[#1b1b1d] px-6 py-3 text-[15px] border-white rounded"
+              className="border hover:bg-[#1b1b1d] px-4 py-2 text-[15px] border-white rounded"
             >
               Resume
             </a>
           </Link>
-        </div> */}
+        </div> 
     </div>
   );
 };
