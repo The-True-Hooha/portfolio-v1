@@ -135,7 +135,7 @@ const Work = () => {
     setExpIndex(idx);
   };
   return (
-    <div id="work" className="px-[60px] lg:px-[150px] py-[115px] w-full">
+    <div id="work" className="px-[60px] lg:px-[150px] pt-[80px] w-full">
       <div className="w-6/12 mb-[10px] flex flex-row items-center">
         <div className="mr-[12px]">
           {" "}

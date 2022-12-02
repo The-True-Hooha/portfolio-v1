@@ -3,9 +3,9 @@ import About from "../components/about";
 import Contact from "../components/contact";
 import HeroSection from "../components/Hero";
 import Navbar from "../components/navbar";
-//import Projects from "../components/projects";
+// import Projects from "../components/projects";
 import Work from "../components/work";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -17,9 +17,9 @@ export default function Home() {
       </Head>
        <Navbar />
       <HeroSection />
-      {/* <About /> */}
-      {/*<Work />
-      <Contact /> */}
+      <About /> 
+      <Work />
+      <Contact />
       {/* <Projects /> */}
       {/* <main className="">  
       </main> */}
